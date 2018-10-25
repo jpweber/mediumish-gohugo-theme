@@ -14,7 +14,6 @@ See the [Demo](https://lgaida.github.io/mediumish-gohugo-theme-demo) and [Demo-S
     + shareable via socialmedia
 + Custom pagination
 + Prev/Next-Links
-+ Tag-Overview in Jumbotron
 + Integrations:
     + Disqus Comments
     + Google Analytics
@@ -28,7 +27,6 @@ Inside the folder of your Hugo site run:
 
 ## Preface
 Most of the images e.g logo, author-image, post-images should be placed somewhere in the static folder of your gohugo-site. You can then reference them via the config.toml or the post.md-files. I would suggest placing all your config-specific images under `static/images` and all post-related images under a arbitrary folder like `static/images/posts`.
-However your folder-structure will be there is one exception: you need a file named `jumbotron.jpg` to be present under `static/images` since this one is referenced in the .css
 
 ## Post Example
 To create a simple post use the hugo new command as usual.
@@ -55,7 +53,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero qu
 `publishdate`: is displayed at the top of the single-view\
 `lastmod`: is displayed as a hint on the single-view\
 `image`: is displayed in the list- and single-view\
-`tags`: are used as usual, just add the tags you want to use. They are displayed in the jumbotron on the list-view, and on the bottom of each single-view\
 `comments`: true/false to turn on/off disqus-comments
 
 
