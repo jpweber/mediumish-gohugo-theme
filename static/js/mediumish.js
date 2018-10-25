@@ -15,16 +15,9 @@ jQuery(document).ready(function($){
     return false; 
     })
 
-
-    // alertbar later
     $(document).scroll(function () {
         var maxScroll = $(document).height() - $(window).height();
         var y = $(this).scrollTop();
-        if (y > 350 || y + 100 > maxScroll) {
-            $('.alertbar').fadeIn();
-        } else {
-            $('.alertbar').fadeOut();
-        }
     });
 
 

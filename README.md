@@ -93,7 +93,7 @@ googleAnalytics = "UA-1XXXXXXX1-X"
   mailchimp = "you can provide a mailchimp-link here, see below"
   mailprotect = "you can provide a protector-name here, see below"
 ```
-`logo`: is displayed in titlebar and alertbar\
+`logo`: is displayed in titlebar \
 `description`: is displayed under title\
 `mailchimp` and `mailprotect`: provide links to a mailchimp-list and a mailchimp-protector id, the following screenshot should clarify
 
@@ -117,7 +117,6 @@ googleAnalytics = "UA-1XXXXXXX1-X"
   mdtext = '''Currently trying to get this blog running, still don't know what the blog will be about!\
 **This textblock is a demonstration of the mdtext-param.**\
 ### This is a markdown heading'''
-  alertbar = true
 ```
 You can currently provide your username from `github`, `linkedin`, `xing`. They will be displayed as icons on the landingpage.
 ```toml

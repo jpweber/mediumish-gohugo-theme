@@ -28,7 +28,6 @@ Currently trying to get this blog running, still don't know what the blog will b
 **This textblock is a demonstration of the mdtext-param.**\
 ### This is a markdown heading
 '''
-  alertbar = false
 
 [params.social]
   github = "<username>"
